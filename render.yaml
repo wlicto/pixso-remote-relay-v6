@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pixso-remote-relay-v6
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node relay.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: RELAY_TOKEN
+        generateValue: true

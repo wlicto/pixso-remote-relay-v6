@@ -1,0 +1,12 @@
+{
+  "name": "pixso-remote-relay-v6",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node relay.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
